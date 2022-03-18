@@ -1299,13 +1299,13 @@ section {
 .send {
   padding: 10px;
   border-radius: 10px;
-  background-color: #191d2b;
-  border: 1px solid #b046be;
+  background-color: var(--color-primary);
+  border: 3px solid var( --color-secondary);
   width: 200px;
-  color: white;
+  color: var(--color-black);
   font-size: 20px;
 }
 
 .send:hover {
-  background-color: #b046be;
+  background-color: var( --color-secondary);
 }
