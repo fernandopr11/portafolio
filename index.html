@@ -349,16 +349,37 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="" class="contact-form">
+              <form
+                action="mailto:fernandopaucar149@gmail.com"
+                class="contact-form"
+                method="post"
+                enctype="text/plain"
+              >
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+                  <input
+                    id="name"
+                    type="text"
+                    required
+                    placeholder="YOUR NAME"
+                  />
+                  <input
+                    id="mail"
+                    type="email"
+                    required
+                    placeholder="YOUR EMAIL"
+                  />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input
+                    id="subject"
+                    type="text"
+                    required
+                    placeholder="ENTER SUBJECT"
+                  />
                 </div>
                 <div class="input-control">
                   <textarea
+                    id="message"
                     name=""
                     id=""
                     cols="15"
@@ -396,6 +417,6 @@
       <i class="fas fa-adjust"></i>
     </div>
 
-    <script src="app.js"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
   </body>
 </html>
