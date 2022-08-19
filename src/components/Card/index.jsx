@@ -4,22 +4,22 @@ export const Card = props => {
   return (
     <div className="card">
       <div className="card-header">
-        {' '}<p clas>{this.props.headerText}</p>
+        {' '}<p clas>{props.headerText}</p>
       </div>
       <div className="card-body">
         <h4 className="card-title">
-          {this.props.cardTitle}
+          {props.cardTitle}
         </h4>
         <h5 className="card-subtitle">
-          {this.props.cardSubtitle}
+          {props.cardSubtitle}
         </h5>
         <p className="card-text">
-          {' '}{this.props.cardText}
+          {props.cardText}
         </p>
         <a
           rel="noreferrer"
           target="_blank"
-          href={this.props.githubUrl}
+          href={props.githubUrl}
           className="paper-btn"
         >
           Let me go Here !
