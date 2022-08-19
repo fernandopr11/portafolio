@@ -20,7 +20,7 @@ export const Card = props => {
           rel="noreferrer"
           target="_blank"
           href={props.githubUrl}
-          className="paper-btn"
+          className="paper-btn btn-secondary"
         >
           Let me go Here !
         </a>
