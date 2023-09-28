@@ -20,7 +20,7 @@ export const Projects = () => {
           cardTitle="GitHub User Search"
           cardSubtitle="Used Github API to show information of user witch React JS Vercel as a packager."
           cardText="You can access the project in the next button"
-          githubUrl="https://github.com/BevilaquaBruno"
+          githubUrl="https://github.com/fernandopr11"
         />
       </div>
       <div className="md-6 sm-12 col">
@@ -29,7 +29,7 @@ export const Projects = () => {
           cardTitle="Ghipy React App"
           cardSubtitle="Use Ghipy api to display gifs from different categories and save your favorites by user authentication."
           cardText="You can access the project in the next button"
-          githubUrl="https://github.com/BevilaquaBruno/"
+          githubUrl="https://github.com/fernandopr11/"
         />
       </div>
     </>
